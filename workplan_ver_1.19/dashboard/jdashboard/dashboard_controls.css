@@ -1,0 +1,57 @@
+/* @group Structure */
+	
+	
+	
+	#dashboard {
+		min-width: 800px;
+		max-width: 1400px;
+		margin: 0 auto;
+	}
+	
+	#controls {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		
+		margin-bottom: 20px;
+		padding: 10px 10px 10px 100px;
+		line-height: 20px;
+		height: 18px;
+		font: 12px Helvetica;
+		text-align: center;
+		
+		
+	}
+	
+	/* @group Controls Elements */
+		
+		#controls label {
+			color: #000;
+			
+			margin-left: 50px;
+			font-weight: bold;
+			display: inline-block;
+		}
+		#controls label:first-child {
+			margin-left: 100;
+		}
+		
+		#controls label span { margin-left: 8px; }
+		
+		#show-controls {
+			position: absolute;
+			right: 15px;
+			top: 12px;
+			display: block;
+			width: 16px;
+			height: 16px;
+			
+		}
+		
+		body.showing-controls #show-controls {
+			background-image: url(images/gear-white.png);
+		}
+		
+	/* @end */
+	
